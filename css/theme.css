@@ -1,0 +1,61 @@
+/* Global elements */
+
+* {
+    box-sizing: border-box;
+}
+
+span {
+    display: inline-block;
+}
+
+.color-fill {
+    background-color: #A4C639
+}
+
+/* Droid parts */
+
+.head {
+    height: 2rem;
+    width: 4rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.arm {
+    width: 1rem;
+    height: 3rem;
+    border-radius: .5rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+.body {
+    width: 4rem;
+    height: 4rem;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+.leg {
+    width: 1rem;
+    height: 2rem;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+/* Spacing */
+
+.margin-placeholder {
+    width: .2rem;
+    height: .2rem;
+}
+
+.horiz-spacer-arm {
+    width: 1rem;
+}
+.horiz-spacer-leg-side {
+    width: .75rem;
+}
+.horiz-spacer-leg-between {
+    width: .5rem;
+}
