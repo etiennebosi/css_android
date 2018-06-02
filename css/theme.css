@@ -43,6 +43,24 @@ span {
     border-bottom-right-radius: .5rem;
 }
 
+.eye {
+    width: .2rem;
+    height: .2rem;
+    border-radius: .1rem;
+    background-color: #FFF;
+    position: relative;
+    top: .9rem;
+}
+
+    .left-eye {
+        left: 1.15rem;
+    }
+
+    .right-eye {
+        left: 2.45rem;
+    }
+
+
 /* Spacing */
 
 .margin-placeholder {
