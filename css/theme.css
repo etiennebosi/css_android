@@ -19,6 +19,7 @@ span {
     width: 4rem;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
+    margin-top: 1rem; /* to ensure that antennas fit in box */
 }
 
 .arm {
@@ -47,9 +48,9 @@ span {
     width: .2rem;
     height: .2rem;
     border-radius: .1rem;
-    background-color: #FFF;
     position: relative;
-    top: .9rem;
+    bottom: .9rem;
+    background-color: #FFF;
 }
 
     .left-eye {
@@ -57,7 +58,26 @@ span {
     }
 
     .right-eye {
-        left: 2.45rem;
+        left: 2.05rem;
+    }
+
+.antenna {
+    width: .2rem;
+    height: 2rem;
+    border-radius: .1rem;
+    transform-origin: bottom;
+    position: relative;
+    bottom: .75rem;
+}
+
+    .left-antenna {
+        left:1.7rem;
+        transform: rotate(-30deg);
+    }
+
+    .right-antenna {
+        left: 1.5rem;
+        transform: rotate(30deg);
     }
 
 
