@@ -1,0 +1,15 @@
+/* Global elements */
+
+* {
+    box-sizing: border-box;
+}
+
+span {
+    display: inline-block;
+}
+
+.color-fill {
+    background-color: #A4C639
+}
+
+/* Droid parts */
