@@ -19,3 +19,72 @@ span {
 }
 
 /* Droid parts */
+.head {
+    grid-area: 1 / 2 / span 2 / span 4;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.arm {
+    border-radius: .5rem;
+    grid-area: 3 / 1 / span 3 / span 1;
+}
+
+    .right-arm {
+        grid-column-start: 6;
+    }
+
+.body {
+    grid-area: 3 / 2 / span 4 / span 4;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+.leg {
+    grid-area: 7 / 3 / span 2 / span 1;
+    margin-top: -.5rem;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    transform: translateX(-.5rem);
+}
+
+    .leg-right {
+        grid-column-start: 4;
+        transform: translateX(.5rem);
+    }
+
+/* .eye {
+    width: .2rem;
+    height: .2rem;
+    border-radius: .1rem;
+    position: relative;
+    bottom: .9rem;
+    background-color: #FFF;
+}
+
+    .left-eye {
+        left: 1.15rem;
+    }
+
+    .right-eye {
+        left: 2.05rem;
+    }
+
+.antenna {
+    width: .2rem;
+    height: 2rem;
+    border-radius: .1rem;
+    transform-origin: bottom;
+    position: relative;
+    bottom: .75rem;
+}
+
+    .left-antenna {
+        left:1.7rem;
+        transform: rotate(-30deg);
+    }
+
+    .right-antenna {
+        left: 1.5rem;
+        transform: rotate(30deg);
+    } */
