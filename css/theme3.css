@@ -1,0 +1,21 @@
+/* Global elements */
+
+* {
+    box-sizing: border-box;
+}
+
+span {
+    display: inline-block;
+}
+
+.color-fill {
+    background-color: #A4C639
+}
+
+#container {
+    display: grid;
+    grid-template: repeat(8, 1rem) / repeat(6, 1rem);
+    grid-gap: .1rem .1rem
+}
+
+/* Droid parts */
