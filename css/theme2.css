@@ -27,6 +27,7 @@ span {
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     align-self: end;
+    position: relative; /*for using absoluste positionned eyes and antennas*/
 }
 
 .arm {
@@ -67,17 +68,17 @@ span {
     width: .2rem;
     height: .2rem;
     border-radius: .1rem;
-    position: relative;
+    position: absolute;
     bottom: .9rem;
     background-color: #FFF;
 }
 
     .left-eye {
-        left: 1.15rem;
+        left: 1.25rem;
     }
 
     .right-eye {
-        left: 2.05rem;
+        left: 2.55rem;
     }
 
 .antenna {
@@ -85,16 +86,16 @@ span {
     height: 2rem;
     border-radius: .1rem;
     transform-origin: bottom;
-    position: relative;
+    position: absolute;
     bottom: .75rem;
 }
 
     .left-antenna {
-        left:1.7rem;
+        left: 1.9rem;
         transform: rotate(-30deg);
     }
 
     .right-antenna {
-        left: 1.5rem;
+        left: 1.9rem;
         transform: rotate(30deg);
     }
